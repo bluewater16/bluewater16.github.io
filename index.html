@@ -3,36 +3,147 @@
 <head>
   <meta charset="UTF-8">
   <title>Lishan Prado | Chemistry + Math Projects</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f7fb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+
+    header p {
+      margin-top: 12px;
+      font-size: 1.15rem;
+      color: #cbd5e1;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    h2 {
+      color: #0f172a;
+      border-bottom: 2px solid #cbd5e1;
+      padding-bottom: 6px;
+      margin-top: 40px;
+    }
+
+    .project {
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 14px;
+      padding: 24px;
+      margin: 24px 0;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .project h3 {
+      margin-top: 0;
+      color: #1e3a8a;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e0f2fe;
+      color: #075985;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      margin-right: 6px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 14px;
+      padding: 10px 14px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #1d4ed8;
+    }
+
+    footer {
+      text-align: center;
+      color: #64748b;
+      padding: 40px 20px;
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Lishan Prado</h1>
+  <header>
+    <h1>Lishan Prado</h1>
+    <p>Chemistry, math, and LaTeX projects</p>
+  </header>
 
-  <p>
-    Chemistry, math, and LaTeX projects. This site collects my academic notes, competition resources, and teaching handouts.
-  </p>
+  <main>
+    <section>
+      <h2>Chemistry Projects</h2>
 
-  <h2>Chemistry Projects</h2>
+      <div class="project">
+        <h3>Qualitative Cation Analysis Handout</h3>
 
-<h3>Qualitative Cation Analysis Handout</h3>
+        <p>
+          A comprehensive LaTeX-written guide to classical qualitative inorganic
+          analysis, including group separations, precipitation reactions,
+          confirmatory tests, and flame tests.
+        </p>
 
-<p>
-A comprehensive guide to classical qualitative inorganic analysis,
-including group separations, precipitation reactions,
-confirmatory tests, and flame tests.
-</p>
+        <p>
+          <span class="tag">Chemistry</span>
+          <span class="tag">Inorganic</span>
+          <span class="tag">LaTeX</span>
+        </p>
 
-<p>
-<a href="pdfs/qualitative_cation_analysis.pdf">View PDF</a>
-</a>
-</p>
+        <a class="button" href="pdfs/qualitative_cation_analysis.pdf">
+          View PDF
+        </a>
+      </div>
+    </section>
 
-  <h2>Math Projects</h2>
+    <section>
+      <h2>Math Projects</h2>
 
-  <h3>MATHCOUNTS Handouts</h3>
-  <p>
-    Short LaTeX handouts for contest math topics like modular arithmetic,
-    counting, geometry, and probability.
-  </p>
+      <div class="project">
+        <h3>MATHCOUNTS Handouts</h3>
+
+        <p>
+          Short LaTeX handouts for contest math topics like modular arithmetic,
+          counting, geometry, and probability.
+        </p>
+
+        <p>
+          <span class="tag">Math</span>
+          <span class="tag">Teaching</span>
+          <span class="tag">LaTeX</span>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with HTML, CSS, and LaTeX.</p>
+  </footer>
 </body>
 </html>
